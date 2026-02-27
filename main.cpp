@@ -13,7 +13,7 @@ using namespace std;
 
 
 int getDroneData(float *latitude, float *longitude, float *altitude) {
-    // Simulating radio data
+    //simulo i dati
     *latitude = static_cast<float>(rand() % 90);
     *longitude = static_cast<float>(rand() % 180);
     *altitude = static_cast<float>(rand() % 500);
